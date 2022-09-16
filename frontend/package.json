@@ -1,5 +1,5 @@
 {
-  "name": "thor",
+  "name": "thor_converter_electron",
   "version": "0.1.0",
   "description": "The T.H.O.R. Converter",
   "main": "public/main.js",
