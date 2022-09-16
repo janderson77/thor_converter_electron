@@ -16,7 +16,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "concurrently \"npm:electron-dev \" \" BROWSER=none \" \" react-scripts start \" ",
+    "start": "concurrently \"npm:electron-dev \" \" react-scripts start \" ",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
@@ -60,14 +60,5 @@
         }
       ]
     }
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/janderson77/thor_converter_electron.git"
-  },
-  "keywords": [],
-  "bugs": {
-    "url": "https://github.com/janderson77/thor_converter_electron/issues"
-  },
-  "homepage": "https://github.com/janderson77/thor_converter_electron#readme"
+  }
 }
