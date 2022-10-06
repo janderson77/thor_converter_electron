@@ -1,5 +1,6 @@
 import React, {Fragment} from 'react';
 import {Helmet} from 'react-helmet';
+import ConvertForm from './ConvertForm'
 
 const Home = () => {
     return(
@@ -16,6 +17,7 @@ const Home = () => {
                             <div class="d-flex justify-content-center">
                                 <div class="text-center">
                                     <form method="POST" id="file-form" enctype="multipart/form-data">
+                                        <ConvertForm />
                                         {/* {{ form.hidden_tag() }}
                         
                                         {% for field in form if field.widget.input_type != 'hidden' %}
