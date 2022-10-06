@@ -4,12 +4,12 @@ import './css/styles.css'
 
 const NavBar = () => {
     return(
-        <Navbar className="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
-            <div className='ml-auto'>
+        <Navbar className="navbar navbar-expand-lg navbar-light fixed-top " id="mainNav">
+            <div className='ml-auto '>
                 <NavbarBrand className="navbar-brand"  href="#page-top">T.H.O.R.</NavbarBrand>
             </div>
             
-            <div className="container px-4 px-lg-5">
+            <div className="container no-right-margin no-right-padding">
                 
                 <div className='d-flex'>
                     <Nav className='ms-auto'>

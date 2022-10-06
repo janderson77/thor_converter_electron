@@ -11846,7 +11846,7 @@ body {
 #mainNav .navbar-brand {
 	color: #000;
 	font-weight: 700;
-	padding: 0.9rem 0;
+	padding: 0.9rem 0rem;
 }
 #mainNav .navbar-nav .nav-item:hover {
 	color: fade(#fff, 80%);
@@ -11867,8 +11867,7 @@ body {
 		transition: background-color 0.3s ease-in-out;
 	}
 	#mainNav .navbar-brand {
-		padding-left: 2rem;
-		padding-top: 2rem;
+		padding: 2rem;
 		color: rgba(255, 255, 255, 0.5);
 	}
 	#mainNav .nav-link {
@@ -11922,7 +11921,11 @@ body {
 	width: 100%;
 	height: auto;
 	min-height: 35rem;
-	padding: 15rem 0;
+	padding: 10rem 0 0 0;
+	
+}
+
+#main {
 	background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%),
 		url("../../../public/bg-masthead-color.jpeg");
 	background-position: center;
@@ -11930,6 +11933,8 @@ body {
 	background-attachment: scroll;
 	background-size: cover;
 }
+
+
 .masthead h1,
 .masthead .h1 {
 	font-family: "Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial,
@@ -12095,4 +12100,21 @@ body {
 
 .footer {
 	padding: 5rem 0;
+}
+
+.no-right-margin {
+	margin-right: 0;
+}
+
+.no-right-padding {
+	padding-right: 0;
+}
+.px-0 {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+nav, div .container-fluid {
+	padding-left: 0;
+	padding-right: 0;
 }
